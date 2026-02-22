@@ -60,9 +60,12 @@ npm install
 Edit `backend/.env`:
 ```env
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/medicare
+MONGO_URI=mongodb://localhost:27017/"your db"
 JWT_SECRET=medicare_super_secret_jwt_key_2024
 NODE_ENV=development
+GROQ_API_KEY=
+GROQ_MODEL=
+TRIAGE_TIMEOUT_MS=8000
 ```
 
 > 💡 For **MongoDB Atlas**, replace MONGO_URI with your Atlas connection string.
